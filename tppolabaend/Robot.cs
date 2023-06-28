@@ -28,7 +28,7 @@ namespace tppolabaend
             }
             else
             {
-                Console.WriteLine($"{_model} ");
+                Console.Write($"{_model} ");
                 _commandRobot.Act();
             }
         }
