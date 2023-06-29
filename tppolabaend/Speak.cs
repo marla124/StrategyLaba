@@ -10,7 +10,7 @@ namespace tppolabaend
     {
         void ICommandRobot.Act()
         {
-            Console.WriteLine("Произносит заготовленную речь");
+            Console.WriteLine("Delivers a prepared speech");
         }
     }
 }

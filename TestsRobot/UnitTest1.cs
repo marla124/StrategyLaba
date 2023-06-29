@@ -16,7 +16,7 @@ namespace TestsRobot
             StringWriter writer = new StringWriter();
             Console.SetOut(writer);
             robot.Act();
-            Assert.That(writer.ToString().Trim(), Is.EqualTo("Nivi 1095 ничего не делает"));
+            Assert.That(writer.ToString().Trim(), Is.EqualTo("Nivi 1095 does nothing"));
         }
 
         [Test]
@@ -28,7 +28,7 @@ namespace TestsRobot
             Console.SetOut(writer);
             robot.SetCommandRobot(new Move());
             robot.Act();
-            Assert.That(writer.ToString().Trim(), Is.EqualTo("Nivi 1095 Совершает движение"));
+            Assert.That(writer.ToString().Trim(), Is.EqualTo("Nivi 1095 Makes a move"));
         }
     }
 }

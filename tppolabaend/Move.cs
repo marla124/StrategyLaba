@@ -10,7 +10,7 @@ namespace tppolabaend
     {
         void ICommandRobot.Act()
         {
-            Console.WriteLine("Совершает движение");
+            Console.WriteLine("Makes a move");
         }
     }
 }

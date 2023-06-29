@@ -10,7 +10,7 @@ namespace tppolabaend
     {
         void ICommandRobot.Act()
         {
-            Console.WriteLine("Происходит захват предмета");
+            Console.WriteLine("An object is being captured");
         }
     }
 }

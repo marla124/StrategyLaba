@@ -24,7 +24,7 @@ namespace tppolabaend
         {
             if (_commandRobot is null)
             {
-                Console.WriteLine($"{_model} ничего не делает");
+                Console.WriteLine($"{_model} does nothing");
             }
             else
             {
