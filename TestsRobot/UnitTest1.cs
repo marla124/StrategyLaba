@@ -1,3 +1,5 @@
+using System.Text;
+using System.Text.Unicode;
 using tppolabaend;
 
 
@@ -9,6 +11,7 @@ namespace TestsRobot
         [Test]
         public void Test1()
         {
+            Console.OutputEncoding = Encoding.UTF8;
             Robot robot = new("Nivi 1095");
             StringWriter writer = new StringWriter();
             Console.SetOut(writer);
@@ -19,6 +22,7 @@ namespace TestsRobot
         [Test]
         public void Test2()
         {
+            Console.OutputEncoding = Encoding.UTF8;
             Robot robot = new("Nivi 1095");
             StringWriter writer = new StringWriter();
             Console.SetOut(writer);
