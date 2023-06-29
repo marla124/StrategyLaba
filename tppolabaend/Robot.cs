@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tppolabaend
 {
-    internal class Robot
+    public class Robot
     {
         private readonly string _model;
         private ICommandRobot? _commandRobot;

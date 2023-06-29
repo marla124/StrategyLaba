@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tppolabaend
 {
-    internal class Speak : ICommandRobot
+    public class Speak : ICommandRobot
     {
         void ICommandRobot.Act()
         {

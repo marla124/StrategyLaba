@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tppolabaend
 {
-    internal class Capture : ICommandRobot
+    public class Capture : ICommandRobot
     {
         void ICommandRobot.Act()
         {
