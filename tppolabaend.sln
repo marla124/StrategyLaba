@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tppolabaend", "tppolabaend\tppolabaend.csproj", "{648058B5-4EF2-4387-87D8-45E1424D4BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsRobot", "TestsRobot\TestsRobot.csproj", "{501C38EE-CF00-48C3-9191-AC0DD726267E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsRobot", "TestsRobot\TestsRobot.csproj", "{501C38EE-CF00-48C3-9191-AC0DD726267E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
